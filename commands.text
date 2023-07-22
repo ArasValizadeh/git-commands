@@ -1,27 +1,70 @@
-1.git init
+1. git init
 
 -Initialize a new Git repository in the current directory.
 -Example : git init
 
-2.git clone
+2. git clone
 
 -Clone a remote repository to your local machine.
 -Example : git clone https://github.com/username/repository.git
 
-git add
+3. git add
 
-Add changes to the staging area before committing.
-Example:
+-Add changes to the staging area before committing.
+-Example :
+-git add file1.txt file2.txt   # Add specific files
+-git add .                     # Add all changes in the current directory
 
-bash
-Copy code
-git add file1.txt file2.txt   # Add specific files
-git add .                     # Add all changes in the current directory
-git commit
+4. git commit
 
-Create a new commit with the staged changes.
-Example:
+-Create a new commit with the staged changes.
+-Example : git commit -m "Added new feature
 
-bash
-Copy code
-git commit -m "Added new feature
+5. git push
+
+-Push the committed changes to a remote repository.
+-Example: git push origin master   # Push to the "master" branch on the "origin" remote
+
+6. git pull
+
+-Pull the latest changes from the remote repository to your local repository.
+-Example: git pull origin master   # Pull changes from the "master" branch on the "origin" remote
+
+7. git status
+
+-Check the current status of your working directory and staged changes.
+-Example : git status
+
+8. git log
+
+-View the commit history.
+-Example : git log
+
+9. git branch
+
+-List branches or create a new branch.
+-Example:
+-git branch                      # List all branches
+-git branch new-feature          # Create a new branch called "new-feature"
+
+10. git checkout
+
+-Switch to a different branch or restore files from a specific commit.
+-Example:
+-git checkout master             # Switch to the "master" branch
+-git checkout some-commit-hash   # Restore the files to the state of "some-commit-hash"
+
+11. git merge
+
+-Merge changes from one branch into the current branch.
+-Example:
+-git merge feature-branch       # Merge changes from "feature-branch" into the current branch
+
+12. git remote
+
+-Manage remote repositories.
+-Example :
+-git remote -v             # List all configured remote repositories with their URLs
+-git remote add upstream   # Add a new remote named "upstream"
+
+These are some of the most commonly used Git commands. Remember that Git has many more features and commands to support various version control workflows. You can use 
