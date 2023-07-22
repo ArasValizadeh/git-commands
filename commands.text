@@ -1,0 +1,27 @@
+1.git init
+
+-Initialize a new Git repository in the current directory.
+-Example : git init
+
+2.git clone
+
+-Clone a remote repository to your local machine.
+-Example : git clone https://github.com/username/repository.git
+
+git add
+
+Add changes to the staging area before committing.
+Example:
+
+bash
+Copy code
+git add file1.txt file2.txt   # Add specific files
+git add .                     # Add all changes in the current directory
+git commit
+
+Create a new commit with the staged changes.
+Example:
+
+bash
+Copy code
+git commit -m "Added new feature
